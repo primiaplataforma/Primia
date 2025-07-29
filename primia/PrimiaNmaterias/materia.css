@@ -1,0 +1,127 @@
+*{
+font-family: 'Lexend', sans-serif;
+}
+
+body{
+    background-color: #C5B4E3;
+    margin: 0;
+    
+ 
+}
+
+.imgh svg{
+
+    transform: translateY(35%);
+   
+}
+
+.header h1{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    margin-top: 10px;
+
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+
+.header{
+
+    margin-bottom: 20px;
+    position: relative;
+    height: 100px;
+    background-color: #C5B4E3;
+    width: 100%;
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.20);
+  
+
+}
+
+
+#tela{
+  display: flex;
+  gap: 20px
+  
+}
+
+aside{
+    width: 220px;
+    background: #ECECEC;
+    padding: 20px;
+    border-radius: 8px;
+}
+aside h2{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 6px 0 4px -38px;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #A398D1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+main{
+    flex: 1;
+    background: #ECECEC;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+main h2{
+    margin-bottom: 15px;
+}
+
+section{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.materias{
+    font-size: 15px;
+    color: #000;
+    
+}
+
+.pessoas{
+    font-size: 12px;
+    color: rgb(44, 44, 204);
+}
+
+
+
+section div{
+    flex: 1;
+    background: #C5B4E3;
+    min-width: 180px;
+    padding: 32px;
+    text-align: center;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+section div:hover{
+    background: #B8B8FF;
+}
