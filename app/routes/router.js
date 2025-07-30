@@ -1,0 +1,20 @@
+var express = require("express");
+var router = express.Router();
+
+router.get("/", function (req, res) {
+  res.render("pages/paginaMaterias");
+});
+
+router.get("/materia1", function (req, res) {
+  res.render("pages/materia1");
+});
+
+router.get("/paginaMaterias", function (req, res) {
+  res.render("pages/paginaMaterias");
+});
+
+router.get("/login", function (req, res) {
+  res.render("pages/login");
+});
+
+module.exports = router;
