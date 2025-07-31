@@ -17,4 +17,7 @@ router.get("/login", function (req, res) {
   res.render("pages/login");
 });
 
+router.get("/professor", function (req, res) {
+  res.render("pages/professor");
+});
 module.exports = router;
