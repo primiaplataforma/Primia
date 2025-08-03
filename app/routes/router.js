@@ -2,7 +2,7 @@ var express = require("express");
 var router = express.Router();
 
 router.get("/", function (req, res) {
-  res.render("pages/paginaMaterias");
+  res.render("pages/telainicial");
 });
 
 router.get("/materia1", function (req, res) {
