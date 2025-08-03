@@ -20,4 +20,15 @@ router.get("/login", function (req, res) {
 router.get("/professor", function (req, res) {
   res.render("pages/professor");
 });
+
+router.get("/telainicial", function (req, res) {
+  res.render("pages/telainicial");
+});
+
+router.get("/sobre", function (req, res) {
+  res.render("pages/sobre");
+});
+
 module.exports = router;
+
+
