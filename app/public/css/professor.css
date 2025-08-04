@@ -1,5 +1,5 @@
 * {
-  font-family: "Lexend", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -65,13 +65,20 @@ input {
   height: 38px;
 }
 .bot {
-  background-color: #a398d1;
-  border-radius: 50px;
-  height: 41px;
-  border: none;
-  color: #fff;
-  cursor: pointer;
+padding: 7px;
+text-decoration: none;
+background-color: #A398D1;
+color: white;
+font-weight: bold;
+border: none;
+border-radius: 10px;
+text-align: center;
+font-size: 15px;
+
+  
 }
 .bot:hover {
-  background-color: #ddcbdf;
+  background-color: #c5b4e3;
+  
 }
+

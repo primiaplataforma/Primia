@@ -25,6 +25,24 @@ router.get("/telainicial", function (req, res) {
   res.render("pages/telainicial");
 });
 
+router.get("/contato", function (req, res) {
+  res.render("pages/contato");
+});
+
+router.get("/logincadastro", function (req, res) {
+  res.render("pages/logincadastro");
+});
+
+router.get("/entrada", function (req, res) {
+  res.render("pages/entrada");
+});
+
+router.get("/duvida", function (req, res) {
+  res.render("pages/duvida");
+});
+
+
+
 router.get("/sobre", function (req, res) {
   res.render("pages/sobre");
 });

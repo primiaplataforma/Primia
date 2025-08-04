@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>loginAluno</title>
-    <link rel="stylesheet" href="../css/login.css">
+    <title>LoginProfessor</title>
+    <link rel="stylesheet" href="../css/entrada.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
 
     <header>
         <div>
-            <h1> <a class="a" href="/telainicial">Primia</a></h1>
+            <h1> <a href="/telainicial">Primia</a></h1>
         </div>
 
 
@@ -31,43 +32,96 @@
         </div>
     </header>
 
-    <div class="container">
+  <main>
 
-        <div class="input-container">
-
+    <section class="perfil">
+      <figure class="icone-perfil">
+        <i class="bi bi-person-circle"></i>
+      </figure>
+      <nav class="botao-tipo">
         
-    <article class="input-c">
-            <article class="inputfield">
-                <label for="Usuario">Nome do usuário</label>
-            <input type="text" id="Usuario" name="Usuario" placeholder="Nome completo">
-            </article>
+        <a class="button" href="/duvida">Duvida</a>
+        <a class="button" href="#">Chat</a>
+      
+      </nav>
+    </section>
 
-             <article class="inputfield">
-                <label for="E-mail">E-mail</label>
-            <input type="email" id="E-mail" name="E-mail" placeholder="Digite seu e-mail">
-            </article>
+    <section class="materias">
+      <h2>Nossas Matérias</h2>
+     <ul class="grid">
+  <li class="materia">
+    <a href="#portugues">
+      <img src="https://img.icons8.com/ios/50/000000/book.png"/>
+      <p>Língua Portuguesa</p>
+    </a>
+  </li>
+  <li class="materia">
+    <a href="#matematica">
+      <img src="https://img.icons8.com/ios/50/000000/calculator.png"/>
+      <p>Matemática</p>
+    </a>
+  </li>
+  <li class="materia">
+    <a href="#historia">
+      <img src="https://img.icons8.com/ios/50/000000/hourglass.png"/>
+      <p>História</p>
+    </a>
+  </li>
+  <li class="materia">
+    <a href="#geografia">
+      <img src="https://img.icons8.com/ios/50/000000/worldwide-location.png"/>
+      <p>Geografia</p>
+    </a>
+  </li>
+  <li class="materia">
+    <a href="#biologia">
+      <img src="https://img.icons8.com/ios/50/000000/bacteria.png"/>
+      <p>Biologia</p>
+    </a>
+  </li>
+  <li class="materia">
+    <a href="#fisica">
+      <img src="https://img.icons8.com/ios/50/000000/physics.png"/>
+      <p>Física</p>
+    </a>
+  </li>
+  <li class="materia">
+    <a href="#quimica">
+      <img src="https://img.icons8.com/ios/50/000000/test-tube.png"/>
+      <p>Química</p>
+    </a>
+  </li>
+  <li class="materia">
+    <a href="#filosofia">
+      <img src="https://img.icons8.com/ios/50/000000/greek-pillar.png"/>
+      <p>Filosofia</p>
+    </a>
+  </li>
+  <li class="materia">
+    <a href="#sociologia">
+      <img src="https://img.icons8.com/ios/50/000000/conference.png"/>
+      <p>Sociologia</p>
+    </a>
+  </li>
+  <li class="materia">
+    <a href="#ingles">
+      <img src="https://img.icons8.com/ios/50/000000/great-britain.png"/>
+      <p>Inglês</p>
+    </a>
+  </li>
+</ul>
+    </section>
 
+  </main>
 
-            <article class="inputfield">
-                <label for="Senha">Senha</label>
-            <input type="password"  name="Senha" placeholder="Digite sua senha">
-            </article>
+  <footer>
+    <strong class="logo-footer">primia</strong>
+    <nav class="links">
+      <a href="#">Início</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contato</a>
+    </nav>
+  </footer>
 
-
-             <article class="inputfield">
-                <label for="Senha">Repita sua senha</label>
-            <input type="password" name="Senha" placeholder="Digite sua senha novamente">
-            </article>
-
-
-              <article class="inputfield">  
-            <a class="bot" href="/entrada">Entrar</a>
-            </article>
-            
-            </div>
-           
-    </article>
-    </div>
-    
 </body>
 </html>

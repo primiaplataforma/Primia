@@ -26,11 +26,11 @@ display: inline-block;
 margin: 20px;
 }
 
-a{
+.barm{
     color: black;
 }
 
-a:hover{
+.barm:hover{
     color: #A398D1;
     transition: 0.3s all;
 }
@@ -81,17 +81,15 @@ display: flex;
 width: 70%;
 }
 
-input{
-margin-top: 20px;
-height: 50px;
-padding: 15px;
-border-radius: 20px;
-border: none;
-font-size: 15px;
-width: 50%;
+.cada{
+  padding: 10px;
+text-decoration: none;
 background-color: #A398D1;
 color: white;
 font-weight: bold;
+border: none;
+border-radius: 10px;
+width: 30%px;
 }
 
 input:hover{
